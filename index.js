@@ -11,4 +11,7 @@ console.log("initial State",store.getState());
  
 store.dispatch(increase());
 
-console.log("Store after increase",store.getState());
+console.log("Store after increase",store.getState().counter);
+
+
+
